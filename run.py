@@ -21,8 +21,8 @@ config1 = tf.compat.v1.ConfigProto(gpu_options=tf.compat.v1.GPUOptions(allow_gro
 sess = tf.compat.v1.Session(config=config1)
 
 
-print("[INFO] loading 草书 ...")
-trainpath = 'C:\\Users\\dell\\Documents\\GitHub\\草书processed_three_shot\\'
+print("[INFO] loading sample dataset ...")
+trainpath = '...\\sample_dataset\\'
 words = os.listdir(trainpath)
 category_number = len(words)
 img_size = (105, 105)
