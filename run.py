@@ -22,7 +22,7 @@ sess = tf.compat.v1.Session(config=config1)
 
 
 print("[INFO] loading sample dataset ...")
-trainpath = '...\\sample_dataset\\'
+trainpath = 'sample_dataset\\'
 words = os.listdir(trainpath)
 category_number = len(words)
 img_size = (105, 105)
