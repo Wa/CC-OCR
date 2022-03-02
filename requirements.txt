@@ -1,0 +1,5 @@
+python==3.9.7
+tensorflow-gpu==2.5.0
+matplotlib==3.5.0
+opencv-python==4.5.4.60
+tqdm==4.62.3
